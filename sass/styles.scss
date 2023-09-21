@@ -1,1 +1,23 @@
+.left-aside {
 
+    footer {
+      font-family: 'Oswald', sans-serif;
+      background-color: #ffffff; 
+      color: #474747; 
+      padding: 20px;
+      text-align: left;
+  
+      .footer-content {
+        max-width: 800px;
+        margin: 0 auto;
+        p {
+          margin: 10px 0;
+        }
+      }
+      .DEV {
+        color: rgb(51, 51, 247);
+      }
+
+    }
+  }
+  
