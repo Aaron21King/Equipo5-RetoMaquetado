@@ -1,1 +1,19 @@
+.content{
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    .aside_left{
+        flex-grow: 4;
+        border: solid black 1px;
+    }
+    main{
+        flex-grow: 3;
+        border: solid red 1px;
+    }
+    .aside_right{
+        flex-grow: 5;
+        border: solid black 1px;
+    }
+}
 
+@import "main";
