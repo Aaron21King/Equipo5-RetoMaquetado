@@ -1,17 +1,51 @@
-.left-aside footer {
-  font-family: "Oswald", sans-serif;
-  background-color: #ffffff;
-  color: #474747;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #b4b4b4;
   padding: 20px;
-  text-align: left;
+  color: #333;
+  text-align: center;
+  font-size: 14px;
 }
-.left-aside footer .footer-content {
-  max-width: 800px;
-  margin: 0 auto;
+
+.footer-top {
+  margin-bottom: 20px;
 }
-.left-aside footer .footer-content p {
-  margin: 10px 0;
+
+.dev-link {
+  color: blue;
+  text-decoration: none;
+  transition: underline 0.3s;
 }
-.left-aside footer .DEV {
-  color: rgb(51, 51, 247);
+
+.dev-link:hover {
+  text-decoration: underline;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: circle;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu a {
+  margin-right: 10px;
+  color: blue;
+  text-decoration: none;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  font-size: 12px;
+  color: #666;
+  margin-top: 20px;
 }/*# sourceMappingURL=styles.css.map */
