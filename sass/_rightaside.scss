@@ -1,0 +1,102 @@
+.right_aside_card{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    max-height: 432px;
+    position: relative;
+}
+
+.right_aside_card2{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    max-width: 330px;
+    position: absolute;
+    top: 500px; right: 135px;
+
+}
+.right_aside_card3{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    max-height: 411px; 
+    position: absolute;
+    top: 950px; right: 40px;
+
+}
+
+.right_aside_card4{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    max-height: 411px; 
+    position: absolute;
+    top: 1450px; right: 275px;
+
+}
+.label_title{
+    padding: 10px 16px;
+    color: #242424;
+    text-decoration: none;
+    border: #eeeeee 1px solid;
+    .tag-title{
+        margin: 0;
+        font-size: 20px;
+    }
+}
+
+
+.container_title{
+    padding: 10px 16px;
+    border: #eeeeee 1px solid;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 300;
+    color: #404040;
+}
+
+.aright-text{
+    font-size: 13px;
+    color: #717171;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.label_title:hover,
+.container_title:hover{
+    color: #3b49df;
+}
+
+
+.trend_title{
+    margin: 0;
+    padding: 8px 4px;
+}
+
+.trending_card{
+   color: #404040;
+   text-decoration: none;
+}
+
+.trending_text{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 16px;
+}
+
+.trending_card:hover,
+.trending_text:hover{
+    background-color: white;
+    color: #3b49df;
+}
