@@ -1,4 +1,8 @@
 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
     background-color: #ffffff;
     padding: 20px;
     color: #333;
@@ -7,6 +11,7 @@ footer {
   }
   
   .footer-top {
+   
     margin-bottom: 20px;
   }
   
