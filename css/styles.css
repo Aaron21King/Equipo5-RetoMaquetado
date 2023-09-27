@@ -5,7 +5,7 @@
     
 }
 header{
-    background:  #0f0f0f;
+    background:  #FFFFFF;
     padding: 5px 20px;
 }
 
@@ -33,12 +33,14 @@ header nav ul a:hover{
 }
 
 .logoP{
-    width: 100px;
-    height: 80px;
+    width: 40px;
+    height: 30px;
+    margin-left: 110px;
 }
 
 .button.secondary {
-    border-bottom: 1px #FF0000 solid;
+    border-bottom: 1px #FFFFFF solid;
+    color: black;
   }
 
   /* Mobile menu */
@@ -85,22 +87,25 @@ header nav ul a:hover{
       }
       .button a {
         padding: 7.5px 15px;
-        background: teal;
-        border: 1px #006d6d solid;
+        background: #FFFFFF;
+       color: black;
+        border: 1px #FFFFFF solid;
       }
       .button.secondary a {
+        color: #0000FF;
         background: transparent;
+      }
+      .button.secondary:hover {
+        border: 1px #0000FF solid;
       }
       .button a:hover {
         text-decoration: none;
       }
       .button:not(.secondary) a:hover {
-        background: #006d6d;
-        border-color: #005959;
+        background: #FFFFFF;
+        border-color: #0000FF;
       }
-      .button.secondary a:hover {
-        color: #ddd;
-      }
+      
     }
 
     /* Desktop menu */
