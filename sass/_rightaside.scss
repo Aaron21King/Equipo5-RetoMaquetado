@@ -13,22 +13,23 @@
     background-color: white;
     border-radius: 10px;
     margin-bottom: 10px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     max-width: 330px;
-    position: absolute;
+    
     top: 500px; right: 135px;
 
 }
 .right_aside_card3{
     border-radius: 10px;
     margin-bottom: 10px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     max-height: 411px; 
-    position: absolute;
     top: 950px; right: 40px;
 
 }
@@ -36,11 +37,11 @@
 .right_aside_card4{
     border-radius: 10px;
     margin-bottom: 10px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     max-height: 411px; 
-    position: absolute;
     top: 1450px; right: 275px;
 
 }

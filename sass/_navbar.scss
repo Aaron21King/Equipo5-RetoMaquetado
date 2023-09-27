@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background:  #FFFFFF;
+    padding: 5px 20px;
+}
+
+header nav ul{
+
+    list-style-type: none;
+}
+
+header nav ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header nav ul a:hover{
+    text-decoration: none;
+}
+
+.menu li {
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+  }
+  .logo a {
+    font-size: 20px;
+}
+
+.logoP{
+    width: 40px;
+    height: 30px;
+    margin-left: 110px;
+}
+
+.button.secondary {
+    border-bottom: 1px #FFFFFF solid;
+    color: black;
+  }
+
+  /* Mobile menu */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .item.button {
+    order: 2;
+  } 
+  
+  .item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+  }
+
+  .item.active {
+    display: block;
+  }
+
+  /* Tablet menu */
+@media all and (min-width: 600px) {
+    .menu {
+      justify-content: center;
+    }
+    .logo {
+      flex: 1;
+    }
+    .item.button {
+        width: auto;
+        order: 1;
+        display: block;
+      }
+      .toggle {
+        order: 2;
+      }
+      .button.secondary {
+        border: 0;
+      }
+      .button a {
+        padding: 7.5px 15px;
+        background: #FFFFFF;
+       color: black;
+        border: 1px #FFFFFF solid;
+      }
+      .button.secondary a {
+        color: #0000FF;
+        background: transparent;
+      }
+      .button.secondary:hover {
+        border: 1px #0000FF solid;
+      }
+      .button a:hover {
+        text-decoration: none;
+      }
+      .button:not(.secondary) a:hover {
+        background: #FFFFFF;
+        border-color: #0000FF;
+      }
+      
+    }
+
+    /* Desktop menu */
+@media all and (min-width: 900px) {
+    .item {
+      display: block;
+      width: auto;
+    }
+    .logo {
+        order: 0;
+      }
+      .item {
+        order: 1;
+      }
+      .button {
+        order: 2;
+      }
+      .menu li {
+        padding: 15px 10px;
+      }
+      .menu li.button {
+        padding-right: 0;
+      }
+    }
